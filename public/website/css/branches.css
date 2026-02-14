@@ -1,0 +1,153 @@
+.branches_divs {
+    padding: 50px;
+    border-radius: 25px;
+    position: relative;
+}
+.branches_divs1 {
+  background: #f2f8f0;
+  margin-bottom: 30px;
+}
+section.branches_div {
+    padding: 100px 0;
+}
+.branches_divs h2 {
+    font-size: 34px;
+    font-weight: 800;
+    margin-bottom: 35px;
+}
+.branches_divs p {
+    font-size: 16px;
+    color: #666666;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  .swiper {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .mySwiper2 {
+    height: 80%;
+    width: 100%;
+  }
+
+  .mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+
+  .mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+  }
+
+  .mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+
+
+
+  .mySwiper3 {
+    height: 80%;
+    width: 100%;
+  }
+
+  .mySwiper4 {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+
+  .mySwiper4 .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+  }
+
+  .mySwiper4 .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.scholl_info h3{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.school_info_content {
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.school_info_content ul {
+  list-style: none;
+  display: grid;
+  gap: 20px;
+}
+.school_info_icon i{
+  color: #fff;
+}
+.school_info_icon i {
+  color: #0a59a9;
+  font-size: 16px;
+}
+.school_info_icon {
+  background: #ffffff;
+  box-shadow: rgba(141, 187, 233, 0.596) 0px 8px 24px;
+  height: 27px;
+  width: 27px;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 31px;
+}
+.branches_divs .row{
+  align-items: center;
+}
+.school_info_content li , .school_info_content li a{
+  color: #000;
+}
+.branches_divs.branches_divs2 {
+  background: #f4ebff;
+}
+
+
+

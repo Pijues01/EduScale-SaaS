@@ -1,0 +1,520 @@
+@extends('website.layout.master')
+@push('css')
+    <link rel="stylesheet" href="{{ asset('website/css/aboutus.css') }}" />
+@endpush
+
+@section('content')
+    <!-- ===========about banner start============ -->
+    <section class="contactbanner">
+        <h1 class="bannerHeading">About Us</h1>
+    </section>
+    <!-- =======about banner close============= -->
+    <!-- ===========about  start========== -->
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="aboutimg">
+                        <div class="about1img">
+                            <img src="website/img/about1.webp" alt="" title="" loading="lazy">
+                        </div>
+                        <div class="about2img">
+                            <img src="website/img/about2.webp" alt="" title="" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="about_Section">
+                        <span class="about_title">
+                            Get More About Us
+                        </span>
+                        <h2 class="about_heading">
+                            Empowering Students to reach their potential Goal For Next Level Challenge
+                        </h2>
+                        <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It
+                            has
+                            survived not only five centuries, but also the leap into electronic typesetting.</p>
+                        <ul>
+                            <li>
+                                <div class="arrow_icons"><svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" x="0" y="0"
+                                        viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve"
+                                        class="">
+                                        <g>
+                                            <path
+                                                d="M256 0C114.837 0 0 114.837 0 256s114.837 256 256 256 256-114.837 256-256S397.163 0 256 0zm79.083 271.083L228.416 377.749A21.275 21.275 0 0 1 213.333 384a21.277 21.277 0 0 1-15.083-6.251c-8.341-8.341-8.341-21.824 0-30.165L289.835 256l-91.584-91.584c-8.341-8.341-8.341-21.824 0-30.165s21.824-8.341 30.165 0l106.667 106.667c8.341 8.341 8.341 21.823 0 30.165z"
+                                                fill="#0e5196" opacity="1" data-original="#000000" class=""></path>
+                                        </g>
+                                    </svg></div>
+                                <div class="listing">The Most World Class Instructors</div>
+                            </li>
+                            <li>
+                                <div class="arrow_icons"><svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" x="0" y="0"
+                                        viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve"
+                                        class="">
+                                        <g>
+                                            <path
+                                                d="M256 0C114.837 0 0 114.837 0 256s114.837 256 256 256 256-114.837 256-256S397.163 0 256 0zm79.083 271.083L228.416 377.749A21.275 21.275 0 0 1 213.333 384a21.277 21.277 0 0 1-15.083-6.251c-8.341-8.341-8.341-21.824 0-30.165L289.835 256l-91.584-91.584c-8.341-8.341-8.341-21.824 0-30.165s21.824-8.341 30.165 0l106.667 106.667c8.341 8.341 8.341 21.823 0 30.165z"
+                                                fill="#0e5196" opacity="1" data-original="#000000" class=""></path>
+                                        </g>
+                                    </svg></div>
+                                <div class="listing">Access Your Class anywhere</div>
+                            </li>
+                            <li>
+                                <div class="arrow_icons"><svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" x="0" y="0"
+                                        viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve"
+                                        class="">
+                                        <g>
+                                            <path
+                                                d="M256 0C114.837 0 0 114.837 0 256s114.837 256 256 256 256-114.837 256-256S397.163 0 256 0zm79.083 271.083L228.416 377.749A21.275 21.275 0 0 1 213.333 384a21.277 21.277 0 0 1-15.083-6.251c-8.341-8.341-8.341-21.824 0-30.165L289.835 256l-91.584-91.584c-8.341-8.341-8.341-21.824 0-30.165s21.824-8.341 30.165 0l106.667 106.667c8.341 8.341 8.341 21.823 0 30.165z"
+                                                fill="#0e5196" opacity="1" data-original="#000000" class=""></path>
+                                        </g>
+                                    </svg></div>
+                                <div class="listing">
+                                    Flexible Course Plan</div>
+                            </li>
+                        </ul>
+
+                        <a href="" class="deafult_btn">Learn Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===========about  close========== -->
+    <!-- ========= Features start========= -->
+    <section class="feature">
+        <div class="container">
+            <div class="row justify-content-center ">
+                <div class="col-sm-8 text-center ">
+                    <span class="about_title">
+                        Get More About Us
+                    </span>
+                    <h2 class="about_heading">
+                        Empowering Students to reach their potential Goal For Next Level Challenge
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div class="feature_div feature1">
+                        <div class="features__content-two ">
+                            <div class="content-top">
+                                <div class="features__icon-two">
+                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" x="0" y="0"
+                                        viewBox="0 0 100 100" style="enable-background:new 0 0 512 512" xml:space="preserve"
+                                        class="">
+                                        <g>
+                                            <path
+                                                d="M80 36.666c-5.521 0-10 4.479-10 10s4.479 10 10 10 10-4.479 10-10c0-5.52-4.479-10-10-10zM80 50a3.334 3.334 0 1 1 .001-6.667A3.334 3.334 0 0 1 80 50zM70 63.332 60 70 50 60l-4.713 4.713L59.15 78.576 70 71.344V90h6.667V70h6.666v20H90V63.332zM22.643 37.356 25 35l21.465 21.465-4.713 4.713z"
+                                                fill="#ffffff" opacity="1" data-original="#000000" class=""></path>
+                                            <path
+                                                d="M76.667 10H16.666C13 10 10 12.999 10 16.666V70c0 3.664 3 6.666 6.666 6.666h31.146L41.145 70H16.666V16.666h60.001v15h6.666v-15c0-3.667-3.001-6.666-6.666-6.666z"
+                                                fill="#ffffff" opacity="1" data-original="#000000" class=""></path>
+                                            <path
+                                                d="M23.334 23.333H70v5H23.334zM36.666 33.333h30.001v5H36.666zM46.666 43.333h16.667v5H46.666z"
+                                                fill="#ffffff" opacity="1" data-original="#000000" class="">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <h2 class="title">Expert Tutors</h2>
+                            </div>
+                            <p>when an unknown printer took a galley offe type and scrambled makes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="feature_div feature2">
+                        <div class="features__content-two ">
+                            <div class="content-top">
+                                <div class="features__icon-two">
+                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" x="0"
+                                        y="0" viewBox="0 0 100 100" style="enable-background:new 0 0 512 512"
+                                        xml:space="preserve" class="">
+                                        <g>
+                                            <path
+                                                d="M80 36.666c-5.521 0-10 4.479-10 10s4.479 10 10 10 10-4.479 10-10c0-5.52-4.479-10-10-10zM80 50a3.334 3.334 0 1 1 .001-6.667A3.334 3.334 0 0 1 80 50zM70 63.332 60 70 50 60l-4.713 4.713L59.15 78.576 70 71.344V90h6.667V70h6.666v20H90V63.332zM22.643 37.356 25 35l21.465 21.465-4.713 4.713z"
+                                                fill="#ffffff" opacity="1" data-original="#000000" class="">
+                                            </path>
+                                            <path
+                                                d="M76.667 10H16.666C13 10 10 12.999 10 16.666V70c0 3.664 3 6.666 6.666 6.666h31.146L41.145 70H16.666V16.666h60.001v15h6.666v-15c0-3.667-3.001-6.666-6.666-6.666z"
+                                                fill="#ffffff" opacity="1" data-original="#000000" class="">
+                                            </path>
+                                            <path
+                                                d="M23.334 23.333H70v5H23.334zM36.666 33.333h30.001v5H36.666zM46.666 43.333h16.667v5H46.666z"
+                                                fill="#ffffff" opacity="1" data-original="#000000" class="">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <h2 class="title">Expert Tutors</h2>
+                            </div>
+                            <p>when an unknown printer took a galley offe type and scrambled makes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="feature_div feature3">
+                        <div class="features__content-two ">
+                            <div class="content-top">
+                                <div class="features__icon-two">
+                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" x="0"
+                                        y="0" viewBox="0 0 100 100" style="enable-background:new 0 0 512 512"
+                                        xml:space="preserve" class="">
+                                        <g>
+                                            <path
+                                                d="M80 36.666c-5.521 0-10 4.479-10 10s4.479 10 10 10 10-4.479 10-10c0-5.52-4.479-10-10-10zM80 50a3.334 3.334 0 1 1 .001-6.667A3.334 3.334 0 0 1 80 50zM70 63.332 60 70 50 60l-4.713 4.713L59.15 78.576 70 71.344V90h6.667V70h6.666v20H90V63.332zM22.643 37.356 25 35l21.465 21.465-4.713 4.713z"
+                                                fill="#ffffff" opacity="1" data-original="#000000" class="">
+                                            </path>
+                                            <path
+                                                d="M76.667 10H16.666C13 10 10 12.999 10 16.666V70c0 3.664 3 6.666 6.666 6.666h31.146L41.145 70H16.666V16.666h60.001v15h6.666v-15c0-3.667-3.001-6.666-6.666-6.666z"
+                                                fill="#ffffff" opacity="1" data-original="#000000" class="">
+                                            </path>
+                                            <path
+                                                d="M23.334 23.333H70v5H23.334zM36.666 33.333h30.001v5H36.666zM46.666 43.333h16.667v5H46.666z"
+                                                fill="#ffffff" opacity="1" data-original="#000000" class="">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <h2 class="title">Expert Tutors</h2>
+                            </div>
+                            <p>when an unknown printer took a galley offe type and scrambled makes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========= Features close========= -->
+    <!-- ==========jounrey steps start=========== -->
+    <section class="journey">
+        <div class="container">
+            <div class="row justify-content-center ">
+                <div class="col-sm-8 text-center ">
+                    <div class="journey_heading">
+                        <span class="about_title">
+                            Get More About Us
+                        </span>
+                        <h2 class="about_heading">
+                            Empowering Students to reach their potential Goal For Next Level Challenge
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div class="journey_div">
+                        <div class="journey_icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="55" height="55" x="0" y="0"
+                                viewBox="0 0 32 32" style="enable-background:new 0 0 512 512" xml:space="preserve"
+                                class="">
+                                <g>
+                                    <path
+                                        d="M8.5 12.579a.5.5 0 0 1-.5-.5v-1.811c0-.157.073-.304.198-.398.51-.386.802-.966.802-1.591v-1.5c0-1.103-.897-2-2-2s-2 .897-2 2v1.5c0 .625.292 1.205.802 1.591a.499.499 0 0 1 .198.399v1.811a.5.5 0 1 1-1-.001v-1.575a2.966 2.966 0 0 1-1-2.225v-1.5c0-1.654 1.346-3 3-3s3 1.346 3 3v1.5c0 .856-.361 1.653-1 2.225v1.575a.5.5 0 0 1-.5.5z"
+                                        fill="#000000" opacity="1" data-original="#000000"></path>
+                                    <path
+                                        d="M7.503 11.229a.5.5 0 0 1-.099-.989A2.01 2.01 0 0 0 9 8.279a.5.5 0 0 1 1 0 3.011 3.011 0 0 1-2.396 2.939.496.496 0 0 1-.101.011zM10.374 13.363a.49.49 0 0 1-.197-.041l-1.874-.805a.5.5 0 0 1 .394-.919l1.874.805a.5.5 0 0 1-.197.96zM4 19.416a.493.493 0 0 1-.207-.045l-1.914-.87A1.506 1.506 0 0 1 1 17.135v-1.386c0-1.402.83-2.662 2.114-3.21l2.187-.949a.5.5 0 1 1 .398.917l-2.189.95A2.488 2.488 0 0 0 2 15.749v1.386c0 .195.115.375.293.456l1.914.87a.5.5 0 0 1-.207.955zM8.939 7.689a4.353 4.353 0 0 1-2.753-.992.5.5 0 0 1-.076-.702.5.5 0 0 1 .703-.075c.642.517 1.404.796 2.185.769A2.003 2.003 0 0 0 7 4.779c-1.103 0-2 .897-2 2v.37a.5.5 0 0 1-1 0v-.37c0-1.654 1.346-3 3-3s3 1.346 3 3v.35a.5.5 0 0 1-.421.494 3.997 3.997 0 0 1-.64.066zM26.5 12.579a.5.5 0 0 1-.5-.5v-1.811c0-.157.073-.304.198-.398.51-.386.802-.966.802-1.591v-1.5c0-1.103-.897-2-2-2s-2 .897-2 2v1.5c0 .625.292 1.205.802 1.591a.499.499 0 0 1 .198.399v1.811a.5.5 0 0 1-1 0v-1.575a2.966 2.966 0 0 1-1-2.225v-1.5c0-1.654 1.346-3 3-3s3 1.346 3 3v1.5c0 .856-.361 1.653-1 2.225v1.575a.5.5 0 0 1-.5.499z"
+                                        fill="#000000" opacity="1" data-original="#000000"></path>
+                                    <path
+                                        d="M25.503 11.229a.5.5 0 0 1-.099-.989A2.01 2.01 0 0 0 27 8.279a.5.5 0 0 1 1 0 3.011 3.011 0 0 1-2.396 2.939.496.496 0 0 1-.101.011zM21.773 13.3a.499.499 0 0 1-.197-.96l1.727-.742a.5.5 0 0 1 .394.919l-1.727.742a.487.487 0 0 1-.197.041zM28 19.416a.501.501 0 0 1-.207-.955l1.914-.87a.502.502 0 0 0 .293-.456v-1.386c0-1-.592-1.899-1.507-2.29l-2.192-.952a.501.501 0 0 1-.26-.658c.11-.254.4-.37.658-.259l2.189.95A3.481 3.481 0 0 1 31 15.749v1.386c0 .586-.345 1.122-.879 1.366l-1.914.87a.508.508 0 0 1-.207.045zM17.31 6.195c-1.422 0-2.902-.501-3.718-1.235a.499.499 0 1 1 .668-.743c.986.886 3.348 1.349 4.701.623a.499.499 0 1 1 .473.881c-.617.329-1.362.474-2.124.474zM15.993 15.279c-1.659 0-2.524-1.294-2.75-1.979a.5.5 0 0 1 .948-.316c.021.06.464 1.294 1.802 1.294 1.349 0 1.824-1.272 1.845-1.326a.499.499 0 0 1 .943.333c-.029.082-.72 1.994-2.788 1.994z"
+                                        fill="#000000" opacity="1" data-original="#000000"></path>
+                                    <path
+                                        d="M25.5 19.279a.5.5 0 0 1-.5-.5V18.5a3.496 3.496 0 0 0-2.326-3.298l-4.171-1.48A1.497 1.497 0 0 1 17.5 12.31v-1.23a.5.5 0 0 1 1 0v1.23c0 .21.135.398.335.468l4.172 1.481A4.496 4.496 0 0 1 26 18.5v.28a.5.5 0 0 1-.5.499zM6.5 19.279a.5.5 0 0 1-.5-.5v-.27c0-.312.033-.625.098-.934a4.546 4.546 0 0 1 2.904-3.317l4.162-1.46a.499.499 0 0 0 .336-.469v-1.25a.5.5 0 0 1 1 0v1.25a1.5 1.5 0 0 1-1.005 1.413l-4.159 1.459a3.536 3.536 0 0 0-2.26 2.581c-.051.24-.076.485-.076.727v.27a.5.5 0 0 1-.5.5z"
+                                        fill="#000000" opacity="1" data-original="#000000"></path>
+                                    <path
+                                        d="M16 12.279a.5.5 0 0 1 0-1c1.038 0 3-.94 3-4.5v-1.5c0-1.654-1.346-3-3-3s-3 1.346-3 3v1.5c0 1.724.461 3.043 1.332 3.814a.5.5 0 1 1-.662.749C12.908 10.668 12 9.33 12 6.779v-1.5c0-2.206 1.794-4 4-4s4 1.794 4 4v1.5c0 4.351-2.616 5.5-4 5.5zM23.618 28.279a.5.5 0 0 1-.221-.948l2.473-1.225a.5.5 0 0 1 .443 0l1.616.801-.263-1.784a.5.5 0 0 1 .138-.422l1.263-1.291-1.78-.303a.503.503 0 0 1-.359-.261l-.836-1.598-.837 1.598a.503.503 0 0 1-.359.261l-1.779.303 1.262 1.291a.5.5 0 0 1-.715.699l-1.929-1.973a.499.499 0 0 1 .274-.842l2.476-.422 1.165-2.224a.502.502 0 0 1 .886 0l1.164 2.224 2.477.422a.5.5 0 0 1 .274.842l-1.757 1.795.366 2.484a.503.503 0 0 1-.201.477.496.496 0 0 1-.516.043l-2.25-1.115-2.251 1.115a.49.49 0 0 1-.224.053zM13.076 31a.5.5 0 0 1-.495-.573l.438-2.983-2.108-2.156a.499.499 0 0 1 .274-.842l2.974-.506 1.398-2.671c.174-.33.713-.33.887 0l1.398 2.671 2.974.506a.5.5 0 0 1 .274.842l-2.109 2.156.439 2.983a.503.503 0 0 1-.201.477.496.496 0 0 1-.516.043L16 29.608l-2.702 1.339a.497.497 0 0 1-.222.053zm-.783-5.729 1.614 1.651c.109.112.16.268.138.422l-.336 2.283 2.069-1.025a.494.494 0 0 1 .443 0l2.068 1.025-.336-2.283a.5.5 0 0 1 .138-.422l1.615-1.651-2.277-.388a.503.503 0 0 1-.359-.261L16 22.577l-1.07 2.045a.503.503 0 0 1-.359.261zM8.463 28.279a.505.505 0 0 1-.222-.052l-2.25-1.115-2.251 1.116a.5.5 0 0 1-.717-.521l.366-2.484-1.757-1.795a.499.499 0 0 1 .274-.842l2.477-.422 1.165-2.224a.502.502 0 0 1 .886 0l1.164 2.224 2.476.422a.5.5 0 0 1 .274.842L8.419 25.4a.5.5 0 0 1-.715-.699l1.262-1.291-1.779-.303a.501.501 0 0 1-.359-.261l-.836-1.598-.837 1.598a.503.503 0 0 1-.359.261l-1.78.303 1.263 1.291c.109.112.16.268.138.422l-.263 1.784 1.617-.801a.5.5 0 0 1 .443 0l2.472 1.225a.5.5 0 0 1-.223.948z"
+                                        fill="#000000" opacity="1" data-original="#000000"></path>
+                                </g>
+                            </svg>
+                        </div>
+                        <h4>Learn with Experts</h4>
+                        <p>Curate anding area share Pluralsight content to reach your</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="journey_div">
+                        <div class="journey_icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="55" height="55" x="0" y="0"
+                                viewBox="0 0 128 128" style="enable-background:new 0 0 512 512" xml:space="preserve"
+                                class="">
+                                <g>
+                                    <path
+                                        d="M48.781 42.012a1.999 1.999 0 0 0-1.645 1.265c-4.093 10.55-.897 15.72.833 17.567a50.315 50.315 0 0 0 .063 7.243l-.03.002c.184 4.137 1.249 7.215 3.255 9.41 1.115 1.221 2.05 2.375 2.875 3.392C56.899 84.304 59.084 87 64.174 87c5.002 0 7.186-2.696 9.954-6.109.824-1.017 1.76-2.17 2.875-3.391 1.728-1.892 2.68-4.866 2.992-9.361l-.054-.004c.08-.862.075-2.443.066-5.641L80 59.996v-.001c-.001-5.963-1.294-9.949-3.952-12.185-3.486-2.934-8.242-2.108-12.44-1.38A29.112 29.112 0 0 1 59 47a10.45 10.45 0 0 1-8.337-4.111 1.994 1.994 0 0 0-1.882-.877Zm27.226 20.493c.006 2.044.014 4.818 0 5.315l-.002.041c-.243 3.497-.883 5.767-1.955 6.94-1.195 1.308-2.17 2.51-3.03 3.571C68.445 81.55 67.27 83 64.087 83c-3.095 0-4.27-1.45-6.847-4.628-.86-1.06-1.834-2.263-3.029-3.57-1.348-1.475-2.071-3.73-2.212-6.89l-.004-.069c-.014-.45-.039-3.565-.025-5.843h24.036ZM59 51a31.796 31.796 0 0 0 5.293-.63c3.498-.607 7.117-1.235 9.18.5 1.424 1.197 2.25 3.592 2.468 7.13H50.77c-.85-.949-2.66-3.86-.914-10.249A14.318 14.318 0 0 0 59 51ZM76 30a2 2 0 0 0 2-2 4 4 0 1 1 4 4 2 2 0 0 0-2 2v7a2 2 0 0 0 4 0v-5.253A8 8 0 1 0 74 28a2 2 0 0 0 2 2ZM95 10a2 2 0 0 0 2-2 4 4 0 1 1 4 4 2 2 0 0 0-2 2v7a2 2 0 0 0 4 0v-5.253A8 8 0 1 0 93 8a2 2 0 0 0 2 2ZM17 10a2 2 0 0 0 2-2 4 4 0 1 1 4 4 2 2 0 0 0-2 2v7a2 2 0 0 0 4 0v-5.253A8 8 0 1 0 15 8a2 2 0 0 0 2 2ZM37 30a2 2 0 0 0 2-2 4 4 0 1 1 4 4 2 2 0 0 0-2 2v7a2 2 0 0 0 4 0v-5.253A8 8 0 1 0 35 28a2 2 0 0 0 2 2ZM56 10a2 2 0 0 0 2-2 4 4 0 1 1 4 4 2 2 0 0 0-2 2v7a2 2 0 0 0 4 0v-5.253A8 8 0 1 0 54 8a2 2 0 0 0 2 2ZM99.675 80.825l-2.554 4.61a10.817 10.817 0 0 0-2.955-2.355l-11.964-6.392a12.965 12.965 0 0 1-2.145 3.389l12.224 6.531a6.879 6.879 0 0 1 2.716 2.661l-3.746 6.762a2 2 0 1 0 3.498 1.938l8.39-15.148A7.947 7.947 0 0 1 109.94 79h13.19l-.121.33a9.887 9.887 0 0 1-9.275 6.388h-2.52a2.002 2.002 0 0 0-1.768 1.063l-11.25 21.226a1.993 1.993 0 0 1-2.629.868L88 105.261V101a2 2 0 0 0-4 0v25a2 2 0 0 0 4 0v-16.306l5.843 2.79a5.986 5.986 0 0 0 7.887-2.604l10.687-20.162h1.317a13.9 13.9 0 0 0 13.027-9.004l1.115-3.022A2 2 0 0 0 126 75h-16.06a11.988 11.988 0 0 0-10.265 5.825Z"
+                                        fill="#000000" opacity="1" data-original="#000000"></path>
+                                    <circle cx="64" cy="93" r="2" fill="#000000" opacity="1"
+                                        data-original="#000000"></circle>
+                                    <circle cx="64" cy="101" r="2" fill="#000000" opacity="1"
+                                        data-original="#000000"></circle>
+                                    <circle cx="64" cy="109" r="2" fill="#000000" opacity="1"
+                                        data-original="#000000"></circle>
+                                    <path
+                                        d="M1.24 80.714a13.9 13.9 0 0 0 13.026 9.004h1.317L26.27 109.88a5.986 5.986 0 0 0 7.887 2.605l5.843-2.79V126a2 2 0 0 0 4 0v-25a2 2 0 0 0-4 0v4.261l-7.567 3.614a1.995 1.995 0 0 1-2.628-.868L18.554 86.781a2.002 2.002 0 0 0-1.768-1.063h-2.52a9.887 9.887 0 0 1-9.275-6.389L4.871 79H18.06a7.925 7.925 0 0 1 6.767 3.763l8.424 15.206a2 2 0 1 0 3.498-1.938l-3.746-6.761a6.879 6.879 0 0 1 2.716-2.662l12.405-6.628a14.737 14.737 0 0 1-2.22-3.35l-12.07 6.45a10.817 10.817 0 0 0-2.956 2.355l-2.586-4.668A11.964 11.964 0 0 0 18.06 75H2a2 2 0 0 0-1.876 2.692Z"
+                                        fill="#000000" opacity="1" data-original="#000000"></path>
+                                </g>
+                            </svg>
+                        </div>
+                        <h4>Learn Anything</h4>
+                        <p>Curate anding area share Pluralsight content to reach your</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="journey_div">
+                        <div class="journey_icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="55" height="55" x="0" y="0"
+                                viewBox="0 0 64 64" style="enable-background:new 0 0 512 512" xml:space="preserve"
+                                class="">
+                                <g>
+                                    <path
+                                        d="M32 52.39c-.25 0-.5-.09-.7-.28l-2.23-2.16-3.01.76c-.52.13-1.06-.18-1.21-.7l-.84-2.99-2.99-.84c-.52-.15-.83-.68-.7-1.21l.76-3.01-2.16-2.23a.99.99 0 0 1 0-1.39l2.16-2.23-.76-3.01c-.13-.53.18-1.06.7-1.21l2.99-.84.84-2.99c.15-.52.68-.83 1.21-.7l3.01.76 2.23-2.16a.99.99 0 0 1 1.39 0l2.23 2.16 3.01-.76c.53-.13 1.06.18 1.21.7l.84 2.99 2.99.84c.52.15.83.68.7 1.21l-.76 3.01 2.16 2.23a.99.99 0 0 1 0 1.39l-2.16 2.23.76 3.01c.13.53-.18 1.06-.7 1.21l-2.99.84-.84 2.99c-.15.52-.69.83-1.21.7l-3.01-.76-2.23 2.16c-.19.19-.44.28-.69.28zm-2.63-4.55c.26 0 .51.1.7.28L32 50l1.93-1.88c.25-.24.61-.34.94-.25l2.61.66.73-2.59c.09-.34.36-.6.69-.69l2.59-.73-.66-2.61c-.09-.34.01-.69.25-.94l1.88-1.93-1.88-1.93a.993.993 0 0 1-.25-.94l.66-2.61-2.59-.73a.981.981 0 0 1-.69-.69l-.73-2.59-2.61.66a.993.993 0 0 1-.94-.25L32 28.09l-1.93 1.88c-.25.24-.61.34-.94.25l-2.61-.66-.73 2.59c-.09.33-.36.6-.69.69l-2.59.73.66 2.61c.09.34-.01.69-.25.94l-1.88 1.93 1.88 1.93c.24.25.34.61.25.94l-.66 2.61 2.59.73c.34.09.6.36.69.69l.73 2.59 2.61-.66c.08-.03.16-.04.24-.04z"
+                                        fill="#000000" opacity="1" data-original="#000000"></path>
+                                    <path
+                                        d="M25.96 58.92h-.08a.995.995 0 0 1-.88-.71l-1.34-4.43-3.66 1.4a.99.99 0 0 1-1.07-.24c-.28-.29-.36-.71-.21-1.08l3.52-8.5a1 1 0 1 1 1.85.77l-2.63 6.35 2.49-.95c.26-.1.55-.09.8.04.25.12.44.34.52.61l.91 3 2.95-6.13c.24-.5.84-.71 1.33-.47.5.24.71.84.47 1.33l-4.07 8.44c-.17.35-.52.57-.9.57zM38.04 58.92c-.38 0-.73-.22-.9-.57l-4.07-8.44a.99.99 0 0 1 .47-1.33.99.99 0 0 1 1.33.47l2.95 6.13.91-3a1.012 1.012 0 0 1 1.32-.65l2.49.95-2.63-6.35c-.21-.51.03-1.1.54-1.31s1.1.03 1.31.54l3.52 8.5A1.005 1.005 0 0 1 44 55.18l-3.66-1.4L39 58.21c-.12.39-.47.68-.88.71h-.08zM32 45.64c-3.64 0-6.6-2.96-6.6-6.6s2.96-6.6 6.6-6.6 6.6 2.96 6.6 6.6-2.96 6.6-6.6 6.6zm0-11.2a4.6 4.6 0 1 0 .001 9.201A4.6 4.6 0 0 0 32 34.44z"
+                                        fill="#000000" opacity="1" data-original="#000000"></path>
+                                    <path
+                                        d="M56.79 48.3H45.94c-.55 0-1-.45-1-1s.45-1 1-1h10.84c1.1 0 1.99-.89 1.99-1.99V9.08c0-1.1-.89-1.99-1.99-1.99H7.21c-1.1 0-1.99.89-1.99 1.99v35.23c0 1.1.89 1.99 1.99 1.99h9.84c.55 0 1 .45 1 1s-.45 1-1 1H7.21c-2.2 0-3.99-1.79-3.99-3.99V9.08c0-2.2 1.79-3.99 3.99-3.99h49.58c2.2 0 3.99 1.79 3.99 3.99v35.23c0 2.2-1.79 3.99-3.99 3.99z"
+                                        fill="#000000" opacity="1" data-original="#000000"></path>
+                                    <path
+                                        d="M53.6 44.55h-7.33c-.55 0-1-.45-1-1s.45-1 1-1h7.33c.86 0 1.55-.65 1.55-1.44V12.34c0-.8-.7-1.44-1.55-1.44H11.32c-.86 0-1.55.65-1.55 1.44V41.1c0 .8.7 1.44 1.55 1.44h5.8c.55 0 1 .45 1 1s-.45 1-1 1h-5.8c-1.96 0-3.55-1.54-3.55-3.44V12.34c0-1.9 1.59-3.44 3.55-3.44H53.6c1.96 0 3.55 1.54 3.55 3.44V41.1c0 1.91-1.59 3.45-3.55 3.45z"
+                                        fill="#000000" opacity="1" data-original="#000000"></path>
+                                    <path
+                                        d="M34.62 16.6H14.99c-.55 0-1-.45-1-1s.45-1 1-1h19.62c.55 0 1 .45 1 1s-.44 1-.99 1zM49.92 16.6H39.34c-.55 0-1-.45-1-1s.45-1 1-1h10.58c.55 0 1 .45 1 1s-.45 1-1 1zM49.92 22.67H30.3c-.55 0-1-.45-1-1s.45-1 1-1h19.62c.55 0 1 .45 1 1s-.45 1-1 1zM25.58 22.67H14.99c-.55 0-1-.45-1-1s.45-1 1-1h10.58c.55 0 1 .45 1 1s-.44 1-.99 1z"
+                                        fill="#000000" opacity="1" data-original="#000000"></path>
+                                </g>
+                            </svg>
+                        </div>
+                        <h4>Get Online Certificate</h4>
+                        <p>Curate anding area share Pluralsight content to reach your
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- = =========jounrey steps  close=========== -->
+
+    <!-- ========== Director Section Start ========= -->
+    <section class="director-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <div class="director-image">
+                        <img src="{{ asset('storage/teacheraboutus/teacher1.jpg') }}" alt="Director" class="img-fluid rounded">
+                        <div class="director-info">
+                            <h4>Dr. John Smith</h4>
+                            <p>Director & Founder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="director-speech">
+                        <div class="speech-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0054ab" width="60px"
+                                height="60px">
+                                <path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z" />
+                            </svg>
+                        </div>
+                        <h3 class="speech-title">Message From Our Director</h3>
+                        <p class="speech-text">
+                            "Education is the most powerful weapon which you can use to change the world.
+                            At our institution, we strive to provide quality education that empowers students
+                            to reach their full potential. Our dedicated team of educators works tirelessly
+                            to create an environment where students can thrive academically, socially, and personally.
+                            We believe in nurturing not just academic excellence but also character development."
+                        </p>
+                        <div class="signature">
+                            <img src="{{ asset('storage/teacheraboutus/teacher1.jpg') }}" alt="Signature" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== Director Section End ========= -->
+
+    <!-- ==========profecers start========= -->
+    <section class="teachers">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="teachers_heading">
+                        <h2>Our Most
+                            Experience Professor</h2>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="teachers_img">
+                        <img src="{{ asset('storage/teacheraboutus/teacher1.jpg') }}" alt="" title=""
+                            loading="lazy">
+                        <div class="teachers_content">
+                            <h5 class="teacher_title">Parsley Montana</h5>
+                            <span>Lead Teacher</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="teachers_img">
+                        <img src="{{ asset('storage/teacheraboutus/teacher2.jpg') }}" alt="" title=""
+                            loading="lazy">
+                        <div class="teachers_content">
+                            <h5 class="teacher_title">Parsley Montana</h5>
+                            <span>Lead Teacher</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="teachers_img">
+                        <img src="{{ asset('storage/teacheraboutus/teacher3.jpg') }}" alt="" title=""
+                            loading="lazy">
+                        <div class="teachers_content">
+                            <h5 class="teacher_title">Parsley Montana</h5>
+                            <span>Lead Teacher</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="teachers_img">
+                        <img src="{{ asset('storage/teacheraboutus/teacher4.jpg') }}" alt="" title=""
+                            loading="lazy">
+                        <div class="teachers_content">
+                            <h5 class="teacher_title">Parsley Montana</h5>
+                            <span>Lead Teacher</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="teachers_img">
+                        <img src="{{ asset('storage/teacheraboutus/teacher5.jpg') }}" alt="" title=""
+                            loading="lazy">
+                        <div class="teachers_content">
+                            <h5 class="teacher_title">Parsley Montana</h5>
+                            <span>Lead Teacher</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="teachers_img">
+                        <img src="{{ asset('storage/teacheraboutus/teacher6.jpg') }}" alt="" title=""
+                            loading="lazy">
+                        <div class="teachers_content">
+                            <h5 class="teacher_title">Parsley Montana</h5>
+                            <span>Lead Teacher</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========profecers close=========== -->
+@endsection
+
+@push('js')
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <script>
+        //Global variables
+        var element;
+
+        //Detect onclick event
+        if (window.matchMedia("(max-width: 920px)").matches === false) {
+            $(".ham").on("click", function() {
+                $(".side_menu").css("right", "0px");
+                $(".overlay").css("opacity", "1");
+                $(".overlay").css("z-index", "99");
+            });
+
+            $(".close").on("click", function() {
+                $(".contact").css("top") >= "10%" ?
+                    $(".contact").hide().css("top", "-100%").fadeOut("100") :
+                    $(".side_menu").css("right", "-500px");
+                $(".overlay").css("opacity", "0");
+                $(".overlay").css("z-index", "-1");
+            });
+
+            $(".overlay").on("click", function() {
+                $(".contact").css("top") >= "10%" ?
+                    $(".contact").hide().css("top", "-100%").fadeOut("100") :
+                    $(".side_menu").css("right", "-500px");
+                $(".overlay").css("opacity", "0");
+                $(".overlay").css("z-index", "-1");
+            });
+        } else {
+            $(".ham").on("click", function() {
+                $(".side_menu").css("right", "0px");
+                $(".overlay").css("opacity", "1");
+                $(".overlay").css("z-index", "9");
+            });
+
+            $(".close").on("click", function() {
+                $(".contact").css("top") >= "10%" ?
+                    $(".contact").hide().css("top", "-100%").fadeOut("100") :
+                    $(".side_menu").css("right", "-120%");
+                $(".overlay").css("opacity", "0");
+                $(".overlay").css("z-index", "-1");
+            });
+
+            $(".overlay").on("click", function() {
+                $(".contact").css("top") >= "10%" ?
+                    $(".contact").hide().css("top", "-100%").fadeOut("100") :
+                    $(".side_menu").css("right", "-120%");
+                $(".overlay").css("opacity", "0");
+                $(".overlay").css("z-index", "-1");
+            });
+        }
+
+        //Scroller Nav
+        window.onscroll = function() {
+            if (
+                document.body.scrollTop > 80 ||
+                document.documentElement.scrollTop > 80
+            ) {
+                $("nav").addClass("fixed_nav");
+            } else {
+                $("nav").removeClass("fixed_nav");
+            }
+        };
+
+        //DETECT ESC KEY PRESSED
+        document.onkeydown = function(evt) {
+            evt = evt || window.event;
+            var isEscape = false;
+            if ("key" in evt) {
+                isEscape = evt.key === "Escape" || evt.key === "Esc";
+            } else {
+                isEscape = evt.keyCode === 27;
+            }
+            if (isEscape) {
+                if ($(".overlay").css("opacity") == "1") {
+                    $(".contact").css("top") >= "10%" ?
+                        $(".contact").hide().css("top", "-100%").fadeOut("100") :
+                        $(".side_menu").css("right", "-120%");
+                    $(".overlay").css("opacity", "0");
+                    $(".overlay").css("z-index", "-1");
+                }
+            }
+        };
+
+        //Dropdown
+        $(".dropdown").click(function() {
+            if ($(this).children("aside").is(":hidden")) {
+                $(this).children("aside").show("slow");
+                $(this).children("a").css("color", "var(--white)");
+            } else {
+                $(this).children("aside").hide("slow");
+                $(this).children("a").css("color", "var(--lite)");
+            }
+        });
+    </script>
+@endpush
