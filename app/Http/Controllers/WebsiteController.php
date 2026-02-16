@@ -38,7 +38,7 @@ class WebsiteController extends Controller
         return view('website.aboutus');
     }
     public function career(){
-        $jobs = Job::all();
+        $jobs = Job::latest()->get();
         return view('website.career',compact('jobs'));
     }
 

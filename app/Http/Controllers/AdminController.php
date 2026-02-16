@@ -80,7 +80,7 @@ class AdminController extends Controller
 
         $latestStudents = User::where('role', 'student')
             ->with('class_level')
-            
+
             ->orderBy('created_at', 'desc')
             ->take(5)
             ->get();
@@ -858,7 +858,7 @@ class AdminController extends Controller
     // View all jobs
     public function jobs()
     {
-        $jobs = Job::all();
+        $jobs = Job::latest()->get();
         return view('dashboard.admin.jobs-view', compact('jobs'));
     }
 
@@ -976,7 +976,7 @@ class AdminController extends Controller
     // Application View
     public function ViewApplication()
     {
-        $applications = Application::with('job')->get();
+        $applications = Application::with('job')->latest()->get();
         return view('dashboard.admin.application-view', compact('applications'));
     }
     public function deleteApplication($id)
